@@ -1,6 +1,24 @@
-<h1>Input your text below: </h1>
+{% load static %}
 
-<form method="" action="counter">
-    <textarea name="text" rows="25" cols="50"></textarea><br>
-    <input type="submit">
+<link rel="stylesheet" href="{% static 'style.css' %}">
+<div id="homepage">
+<div id="header">
+<h1>DON'T THINK JUST DO IT.</h1>
+</div>
+<div id="explanation-div">
+<h3 id="explanation">This is your daily planner app. Fill out this form ahead of time and just do what's on the list. don't think about it. If you don't complete all of the tasks on this list then you should ask yourself:</h3>
+</div>
+<div id="a1-div">
+<h3 id="answer1">Was I being to ambitious when I made this list?</h3>
+</div>
+<div id="a2-div">
+<h3 id="answer2">Or was I just being too lazy when I was supposed to be executing the plan?</h3>
+</div>
+
+<form action="login" id="login"> 
+    <input type="text" class="inputs"/>
+    <input type="text" class="inputs"/>
+    <button type="submit" id="login-button">login/sign-up</button>
 </form>
+</div>
+

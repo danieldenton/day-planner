@@ -4,14 +4,9 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 # Create your views here.
-def home(request):
-    context = {
-        'name': 'Fool',
-        'age': '44',
-        'nationality': 'Irish'
-    } 
-    return render(request, 'index.html', context)
+def home(request):  
+    return render(request, 'index.html')
 
-def counter(request):
-    return render(request, 'counter.html')
+def login(request):    
+    return render(request, 'login.html')
 
