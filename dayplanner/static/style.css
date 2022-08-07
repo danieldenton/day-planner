@@ -6,6 +6,7 @@
     font-family: 'ABeeZee';
 }
 
+/* homepage */
 #homepage {
     display: flex;
     flex-direction: column;
@@ -43,7 +44,6 @@
 #login {
     display: flex;
     flex-direction: column;
-    background-color: red;
     align-items: center;
     justify-content: space-around;
     width: 25em;
@@ -77,4 +77,25 @@
 
 #login-button:hover {
     background-color: orange;
+}
+
+#signup-div {
+    text-align: center;
+    color: orange;
+}
+
+#signup-link {
+    color: white;
+}
+
+#signup-link:hover {
+    color: red;
+}
+
+/* sign-up page */
+#signup-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }

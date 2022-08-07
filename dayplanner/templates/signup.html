@@ -1,0 +1,17 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'style.css' %}">
+
+<h1>Create your account</h1>
+
+<form method="POST" action="signup" id="signup-form"> 
+    <label>username</label>
+    <input type="text" class="inputs"/>
+    <label>email</label>
+    <input type="text" class="inputs"/>
+    <label>password</label>
+    <input type="text" class="inputs"/>
+    <label>confirm password</label>
+    <input type="text" class="inputs"/>
+    <button type="submit" id="login-button">login</button>
+</form>
