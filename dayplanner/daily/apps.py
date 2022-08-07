@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class WeeklyConfig(AppConfig):
+class DailyConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'weekly'
+    name = 'daily'
