@@ -1,0 +1,19 @@
+{% load static %}
+
+<link rel="stylesheet" href="{% static 'style.css' %}">
+
+<div id="daily-page">
+
+<h1>Today's List</h1>
+
+<form method="POST" action="daily" id="task-form">
+    <label>task</label>
+    <input type="text" class="inputs">
+    <label>what time?</label>
+    <input type="text" class="inputs">
+    <label>how long will it take?</label>
+    <input type="text" class="inputs">
+    <button type="submit" class="login-button">submit</button>
+</form>
+
+</div>

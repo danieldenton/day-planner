@@ -12,6 +12,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    word-wrap: wrap;
 }
 
 #header {
@@ -23,20 +24,21 @@
 
 #explanation-div {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.3rem;
     width: 55rem;
 }
 
 #answer1 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: rgb(255, 217, 0);
     width: 50rem;
+    margin: 0;
 }
 
 #answer2 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: red;
     width: 54rem;
 }
@@ -66,16 +68,17 @@
     color: black;
 }
 
-#login-button {
+.login-button {
     font-size: 1.5em;
     background-color: white;
     border: none;
     border-radius: 2em;
-    height: 1.5em;
-    width: 7em;
+    height: 1.2em;
+    width: 4em;
+    margin: 1rem;
 }
 
-#login-button:hover {
+.login-button:hover {
     background-color: orange;
 }
 
@@ -93,7 +96,29 @@
 }
 
 /* sign-up page */
+#signup-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
 #signup-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+/* daily page */
+#daily-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#task-form {
     display: flex;
     flex-direction: column;
     justify-content: space-around;

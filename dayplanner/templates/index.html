@@ -1,6 +1,7 @@
 {% load static %}
 
 <link rel="stylesheet" href="{% static 'style.css' %}">
+
 <div id="homepage">
 <div id="header">
 <h1>DON'T THINK JUST DO IT.</h1>
@@ -16,9 +17,11 @@
 </div>
 
 <form method="POST" action="login" id="login"> 
+    <label>email</label>
     <input type="text" class="inputs"/>
+    <label>password</label>
     <input type="text" class="inputs"/>
-    <button type="submit" id="login-button">login</button>
+    <button type="submit" class="login-button">login</button>
 </form>
 
 <div id="signup-div">

@@ -9,7 +9,7 @@ def home(request):
 def signup(request):    
     return render(request, 'signup.html')
 
-def daily(request, id):
-    tl = TaskList.objects.get(id=id)
-    return HttpResponse("<h1>%s" % tl.name)
+def daily(request):
+    # tl = TaskList.objects.get(id=id)
+    return render(request, 'daily.html')
 
